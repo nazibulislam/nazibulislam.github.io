@@ -3,6 +3,9 @@
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+/* Header section */
+
 .header-banner{
   background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url(img/header-bg.jpg);
   background-position: center;
