@@ -78,7 +78,7 @@
   font-weight: bold;
   color: black;
 }
-.learning-goals, .other-tools, .social-icons{
+.learning-goals, .other-tools{
   font-size: 50px;
   justify-content: space-between;
 }
@@ -94,5 +94,11 @@
 }
 .instagram i{
   color: #c13584;
+}
+.social-icons i{
+  transition: 0.5s;
+}
+.social-icons i:hover{
+  transform: translateY(-20%);
 }
 
