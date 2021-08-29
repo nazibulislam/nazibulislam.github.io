@@ -78,4 +78,21 @@
   font-weight: bold;
   color: black;
 }
+.learning-goals, .other-tools, .social-icons{
+  font-size: 50px;
+  justify-content: space-between;
+}
+/* Social icon colors */
+.linkedin i{
+  color: #0e76a8;
+}
+.twitter i{
+  color: #1da1f2;
+}
+.facebook i{
+  color: #3b5998;
+}
+.instagram i{
+  color: #c13584;
+}
 
