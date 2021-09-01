@@ -103,14 +103,6 @@
 }
 
 /* Education section */
-.section-heading::after{
-  content: '';
-  border: 1.5px solid rgb(91, 192, 222);
-  background-color: rgb(91, 192, 222);
-  display: flex;
-  width: 50%;
-  margin: 0px auto 40px;
-}
 #education .card{
   background-color: rgba(0, 110, 255, 0.05);
   transition: 0.5s;
@@ -119,4 +111,17 @@
   box-shadow: 0 0 20px rgb(91, 192, 222) inset;
 }
 
+/* Porjects section */
 
+
+
+/* Others General */
+
+.section-heading::after{
+  content: '';
+  border: 1.5px solid rgb(91, 192, 222);
+  background-color: rgb(91, 192, 222);
+  display: flex;
+  width: 50%;
+  margin: 0px auto 40px;
+}
