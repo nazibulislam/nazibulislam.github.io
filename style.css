@@ -102,16 +102,22 @@
   transform: translateY(-20%);
 }
 
-/* Education section */
-#education .card{
+/* Education & Projects section */
+#education .card,#projects .card{
   background-color: rgba(0, 110, 255, 0.05);
   transition: 0.5s;
 }
+
+/* Education section's card shadow */
 #education .card:hover{
   box-shadow: 0 0 20px rgb(91, 192, 222) inset;
 }
+/* Education section's card shadow */
+#projects .card:hover{
+  transform: scale(1.02);
+  box-shadow: 0 0 20px rgb(91, 192, 222);
+}
 
-/* Porjects section */
 
 
 
@@ -123,5 +129,5 @@
   background-color: rgb(91, 192, 222);
   display: flex;
   width: 50%;
-  margin: 0px auto 40px;
+  margin: 10px auto 30px;
 }
