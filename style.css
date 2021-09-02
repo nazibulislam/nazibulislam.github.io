@@ -62,7 +62,7 @@
   border-top: 2px solid rgb(91, 192, 222);
 }
 .navbar-nav li a.active{
-  border-top: 2px solid rgb(91, 192, 222);
+  /* border-top: 2px solid rgb(91, 192, 222); */
 }
 .navbar-nav li a:link{
   color: rgb(91, 192, 222);
@@ -124,7 +124,24 @@
   background-color: rgba(0, 110, 255, 0.05) !important;
 }
 
+/* Footer Section */
 
+.footer::before{
+  content: '';
+  border: 1.5px solid rgb(91, 192, 222);
+  background-color: rgb(91, 192, 222);
+  display: flex;
+  width: 100%;
+  margin: 10px auto 0px;
+}
+/* .footer{
+  position: relative;
+}
+.to-top{
+  position: absolute;
+  display: block;
+  float: right;
+} */
 
 
 /* Others General */
