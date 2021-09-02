@@ -62,9 +62,12 @@
   border-top: 2px solid rgb(91, 192, 222);
 }
 .navbar-nav li a.active{
-  /* border-top: 2px solid rgb(91, 192, 222); */
+  border-top: 2px solid rgb(91, 192, 222);
 }
 .navbar-nav li a:link{
+  color: rgb(91, 192, 222);
+}
+.navbar-nav li a:visited{
   color: rgb(91, 192, 222);
 }
 
